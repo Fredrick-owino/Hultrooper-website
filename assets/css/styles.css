@@ -1,41 +1,52 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-  }
-  
-  header {
+}
+
+header {
     background: #333;
     color: white;
-    padding: 10px 20px;
-    text-align: center;
-  }
-  
-  nav ul {
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header ul {
+    display: flex;
     list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: white;
+    gap: 15px;
+}
+
+header ul li a {
     text-decoration: none;
-  }
-  
-  section {
-    padding: 20px;
+    color: white;
+}
+
+.hero-section {
+    background: linear-gradient(to right, #1a73e8, #8ab4f8);
     text-align: center;
-  }
-  
-  footer {
+    color: white;
+    padding: 50px;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#about, #services, #team {
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+}
+
+footer {
     background: #333;
     color: white;
-    padding: 10px;
     text-align: center;
-  }
-  
+    padding: 15px 10px;
+}
