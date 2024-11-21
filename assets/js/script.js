@@ -1,2 +1,3 @@
-// script.js
-console.log("Hultrooper Robotics Website Loaded!");
+// Future interactivity scripts will go here
+console.log("Welcome to Hultrooper!");
+
